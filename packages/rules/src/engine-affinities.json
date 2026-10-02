@@ -1,0 +1,8 @@
+{
+  "doubao": ["toutiao", "sohu", "netease", "zhihu"],
+  "yuanbao": ["weixin", "qiehao", "sohu", "netease"],
+  "deepseek": ["sohu", "netease", "zhihu", "csdn"],
+  "kimi": ["weixin", "sohu", "netease", "zhihu"],
+  "wenxin": ["baijiahao", "sohu", "netease", "zhihu"],
+  "qwen": ["sohu", "netease", "zhihu", "csdn"]
+}

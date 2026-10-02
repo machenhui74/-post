@@ -1,0 +1,35 @@
+import { defineConfig } from "wxt";
+
+export default defineConfig({
+  srcDir: ".",
+  outDir: ".output",
+  manifest: {
+    name: "GeoPost 网关",
+    description: "本地控制台的浏览器登录态网关。Cookie 不出浏览器。",
+    version: "0.1.0",
+    permissions: ["cookies", "tabs", "scripting", "storage", "offscreen", "alarms"],
+    host_permissions: [
+      "http://127.0.0.1:8787/*",
+      "http://localhost:8787/*",
+      "ws://127.0.0.1:8787/*",
+      "ws://localhost:8787/*",
+      "*://mp.sohu.com/*",
+      "*://*.sohu.com/*",
+      "*://mp.163.com/*",
+      "*://*.163.com/*",
+      "*://mp.toutiao.com/*",
+      "*://*.toutiao.com/*",
+      "*://*.zhihu.com/*",
+      "*://om.qq.com/*",
+      "*://*.qq.com/*",
+      "*://baijiahao.baidu.com/*",
+      "*://*.baidu.com/*",
+      "*://mp.weixin.qq.com/*",
+      "*://*.csdn.net/*",
+      "*://juejin.cn/*",
+      "*://api.juejin.cn/*",
+      "*://*.cnblogs.com/*",
+      "*://*.bilibili.com/*",
+    ],
+  },
+});

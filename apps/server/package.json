@@ -1,0 +1,31 @@
+{
+  "name": "@geopost/server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "mcp": "tsx src/index.ts --mcp",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.57.0",
+    "@geopost/rules": "workspace:*",
+    "@geopost/shared": "workspace:*",
+    "@hono/node-server": "^1.19.0",
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "dotenv": "^16.6.1",
+    "hono": "^4.8.0",
+    "marked": "^15.0.12",
+    "winston": "^3.17.0",
+    "ws": "^8.18.3",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.2"
+  }
+}

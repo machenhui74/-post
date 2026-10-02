@@ -1,0 +1,23 @@
+{
+  "name": "geopost",
+  "private": true,
+  "version": "0.1.0",
+  "description": "本地控制台 + Chrome 网关的多平台长文发布工具",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:server": "pnpm --filter @geopost/server dev",
+    "dev:web": "pnpm --filter @geopost/web dev",
+    "dev:ext": "pnpm --filter @geopost/extension dev",
+    "mcp": "pnpm --filter @geopost/server mcp",
+    "build": "pnpm -r run build",
+    "typecheck": "pnpm -r run typecheck"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@11.18.0",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}

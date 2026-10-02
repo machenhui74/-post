@@ -1,0 +1,31 @@
+{
+  "name": "@geopost/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@geopost/rules": "workspace:*",
+    "@geopost/shared": "workspace:*",
+    "@tiptap/extension-image": "^2.14.0",
+    "@tiptap/extension-placeholder": "^2.14.0",
+    "@tiptap/react": "^2.14.0",
+    "@tiptap/starter-kit": "^2.14.0",
+    "marked": "^15.0.12",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "turndown": "^7.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@types/turndown": "^5.0.5",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.2"
+  }
+}

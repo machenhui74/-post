@@ -1,0 +1,17 @@
+node_modules
+dist
+.output
+.wxt
+.data
+data
+*.log
+.env
+.DS_Store
+apps/extension/.output
+apps/web/dist
+apps/server/dist
+
+# 本地依赖缓存、编辑器配置、对照用的第三方仓库
+.pnpm-store
+.cursor
+.geo-research

@@ -1,0 +1,19 @@
+{
+  "name": "@geopost/extension",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "build": "wxt build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@geopost/rules": "workspace:*",
+    "@geopost/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "wxt": "^0.20.6"
+  }
+}
